@@ -3,12 +3,12 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "src": "/api/translate",
-      "dest": "/api/translate.js"
+      "source": "/api/translate",
+      "destination": "/api/translate.js"
     },
     {
-      "src": "/(.*)",
-      "dest": "/public/$1"
+      "source": "/(.*)",
+      "destination": "/public/$1"
     }
   ]
 }
