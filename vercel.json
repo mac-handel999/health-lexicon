@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "routes": [
+  "cleanUrls": true,
+  "rewrites": [
     {
       "src": "/api/translate",
       "dest": "/api/translate.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/public/index.html"
+      "dest": "/public/$1"
     }
   ]
 }
