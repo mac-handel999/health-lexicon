@@ -2,10 +2,9 @@
   "version": 2,
   "cleanUrls": true,
   "rewrites": [
-    
     {
-      "source": "/(.*)",
-      "destination": "/public/$1"
+      "source": "/api/translate",
+      "destination": "/api/translate.js"
     }
   ]
 }
