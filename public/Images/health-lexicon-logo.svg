@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <!-- Deep Premium Cyber Radiance Gradients -->
+        <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#131c2e" />
+            <stop offset="100%" stop-color="#0b0f19" />
+        </radialGradient>
+        
+        <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" />
+            <stop offset="100%" stop-color="#0ea5e9" />
+        </linearGradient>
+
+        <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#c084fc" />
+            <stop offset="100%" stop-color="#a855f7" />
+        </linearGradient>
+
+        <linearGradient id="accentGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#4ade80" />
+            <stop offset="100%" stop-color="#22c55e" />
+        </linearGradient>
+        
+        <!-- Drop Shadow Filter for Depth -->
+        <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+        </filter>
+    </defs>
+
+    <!-- Canvas Background -->
+    <rect width="100%" height="100%" fill="url(#bgGlow)" />
+
+    <!-- EMBEDDED SYSTEM ICON LOGO EMBLEM -->
+    <g transform="translate(0, -30)" filter="url(#dropShadow)">
+        <!-- Layer 1: Outer Surveillance Radar Grid Rings -->
+        <circle cx="400" cy="380" r="190" fill="none" stroke="#243556" stroke-width="2" stroke-dasharray="8 8" />
+        <circle cx="400" cy="380" r="140" fill="none" stroke="url(#accentBlue)" stroke-width="1" stroke-opacity="0.3" />
+        
+        <!-- Radar Scan Sweeper Coordinates -->
+        <line x1="400" y1="160" x2="400" y2="600" stroke="#243556" stroke-width="1" stroke-opacity="0.4" />
+        <line x1="180" y1="380" x2="620" y2="380" stroke="#243556" stroke-width="1" stroke-opacity="0.4" />
+
+        <!-- Layer 2: The Multilingual Lexical Speech Nodes (Tri-Language Architecture) -->
+        <!-- Node A: English Core Anchor (Top Left) -->
+        <path d="M 290 270 C 290 220, 360 220, 360 270 C 360 290, 350 300, 340 310 L 340 330 L 320 310 C 290 310, 290 290, 290 270 Z" 
+              fill="url(#accentBlue)" fill-opacity="0.15" stroke="url(#accentBlue)" stroke-width="3" />
+        <text x="325" y="275" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#38bdf8" text-anchor="middle">EN</text>
+
+        <!-- Node B: Igbo Cultural Semantic Node (Right Anchor) -->
+        <path d="M 440 330 C 440 280, 510 280, 510 330 C 510 350, 500 360, 490 370 L 490 390 L 470 370 C 440 370, 440 350, 440 330 Z" 
+              fill="url(#accentGreen)" fill-opacity="0.15" stroke="url(#accentGreen)" stroke-width="3" />
+        <text x="475" y="335" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#4ade80" text-anchor="middle">IG</text>
+
+        <!-- Node C: Nigerian Pidgin Syndromic Node (Bottom Left Anchor) -->
+        <path d="M 260 410 C 260 360, 330 360, 330 410 C 330 430, 320 440, 310 450 L 310 470 L 290 450 C 260 450, 260 430, 260 410 Z" 
+              fill="url(#accentPurple)" fill-opacity="0.15" stroke="url(#accentPurple)" stroke-width="3" />
+        <text x="295" y="415" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#c084fc" text-anchor="middle">NP</text>
+
+        <!-- Layer 3: Central Intersection Health Data Cross -->
+        <g transform="translate(400,380)">
+            <!-- Central core pulse background halo -->
+            <circle cx="0" cy="0" r="45" fill="#131c2e" stroke="#243556" stroke-width="2" />
+            <circle cx="0" cy="0" r="55" fill="none" stroke="url(#accentBlue)" stroke-width="1" stroke-opacity="0.5" />
+            
+            <!-- The Medical/Surveillance Cross Assembly -->
+            <path d="M -12 -30 Q 0 -33 12 -30 L 12 -12 L 30 -12 Q 33 0 30 12 L 12 12 L 12 30 Q 0 33 -12 30 L -12 12 L -30 12 Q -33 0 -30 -12 L -12 -12 Z" 
+                  fill="none" stroke="url(#accentBlue)" stroke-width="4" stroke-linejoin="round" />
+                  
+            <!-- Inner Data Target Dot -->
+            <circle cx="0" cy="0" r="6" fill="url(#accentPurple)" />
+        </g>
+        
+        <!-- Dynamic Synaptic Connectivity Matrix Lines -->
+        <path d="M 345 300 Q 400 320 445 325" fill="none" stroke="#243556" stroke-width="2" stroke-dasharray="4 4" />
+        <path d="M 315 385 Q 340 350 375 345" fill="none" stroke="#243556" stroke-width="2" stroke-dasharray="4 4" />
+        <path d="M 320 430 Q 400 450 460 365" fill="none" stroke="#243556" stroke-width="2" stroke-dasharray="4 4" />
+    </g>
+
+    <!-- ACADEMIC TYPOGRAPHY SYSTEM LAYOUT -->
+    <text x="400" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" letter-spacing="4" fill="#ffffff" text-anchor="middle">
+        DISEASE SURVEILLANCE
+    </text>
+    <text x="400" y="695" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" letter-spacing="8" fill="#0ea5e9" text-anchor="middle">
+        MULTILINGUAL LEXICON
+    </text>
+    
+    <!-- Fine-line Horizontal Boundary Rule -->
+    <line x1="300" y1="725" x2="500" y2="725" stroke="#243556" stroke-width="2" stroke-linecap="round" />
+    
+    <text x="400" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#64748b" text-anchor="middle">
+        ENGLISH • NIGERIAN PIDGIN • IGBO
+    </text>
+</svg>

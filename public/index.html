@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilingual Disease Surveillance Lexicon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+    <div class="header">
+        <div class="logo">
+            <img src="Images/health-lexicon-logo.svg" alt="logo image" width="150px" height="150px" class="logo-img">
+
+            
+        </div>
+    </div>
+
+
+    <div class="container">
+        <header>
+            <h1>Health Based Lexicon (Dictionary) </h1>
+            <p class="subtitle">PhD Project Prototype: Server-Backed Hybrid API Architecture</p>
+        </header>
+
+        <section class="use-cases-section">
+            <div class="section-title">Core System Application Use Cases</div>
+            <div class="use-case-grid">
+                <div class="use-case-card">
+                    <h4>📡 1. Social Listening Matrix</h4>
+                    <p>Parses local digital noise using colloquial semantic variants like <em>"body dey hot"</em> or
+                        <em>"ahụ ọkụ"</em> to track syndromic anomalies early.</p>
+                </div>
+                <div class="use-case-card">
+                    <h4>🏥 2. Clinical Intake Triage</h4>
+                    <p>Acts as an localized semantic bridge within healthcare processing systems to accurately translate
+                        field reports to formal ICD indexes.</p>
+                </div>
+                <div class="use-case-card">
+                    <h4>📊 3. Automated Term Pipeline</h4>
+                    <p>Leverages Node.js proxy to securely capture raw terms, querying the Google engine dynamically
+                        when local records face an omissions gap.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput"
+                    placeholder="Search dictionary or trigger Cloud Translation Engine...">
+                <button id="searchBtn">🔍 Search</button>
+            </div>
+
+            <div class="filter-box">
+                <div class="filter-group">
+                    <label for="langFilter">Language:</label>
+                    <select id="langFilter">
+                        <option value="all">All Languages</option>
+                        <option value="en">English</option>
+                        <option value="pidgin">Nigerian Pidgin</option>
+                        <option value="igbo">Igbo</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="catFilter">Category:</label>
+                    <select id="catFilter">
+                        <option value="all">All Categories</option>
+                        <option value="respiratory">Respiratory</option>
+                        <option value="gastrointestinal">Gastrointestinal</option>
+                        <option value="systemic">Systemic</option>
+                        <option value="vector_borne">Vector-Borne</option>
+                        <option value="symptom">Symptom</option>
+                        <option value="health_seeking">Health Seeking</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <main class="results-container">
+            <div class="meta-info-row">
+                <div class="meta-info" id="metaInfo">Loading records...</div>
+                <div id="cloudIndicator" class="cloud-indicator hidden">🌐 Dynamic Google Cloud Translation Active</div>
+            </div>
+            <div class="lexicon-grid" id="lexiconGrid">
+            </div>
+        </main>
+    </div><br>
+
+
+    <br>
+    <footer>
+        <p><small>
+            &copy; 2026 Health Lexicon | PHD Project Prototype
+        </small></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
