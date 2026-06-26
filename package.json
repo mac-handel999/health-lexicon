@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "health-lexicon",
   "version": "1.0.0",
   "description": "",
@@ -16,7 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/mac-handel999/health-lexicon/issues"
   },
