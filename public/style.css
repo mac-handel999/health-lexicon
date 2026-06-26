@@ -55,7 +55,7 @@ body {
     border: 3px solid var(--accent-blue);
 }
 
-.logo-text, footer {
+ footer {
     color: var(--accent-blue);
     text-align: center;
     padding: 20px;
