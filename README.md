@@ -1,31 +1,32 @@
 # HEALTH LEXICON (DICTIONARY)
 
+
 ```markdown
 # Multilingual Disease Surveillance Lexicon 📡🏥
 
-An advanced, server-backed hybrid software prototype engineered for real-time syndromic anomalies tracking. Designed as a PhD Project Prototype, this platform serves as an interactive semantic bridge mapping public health concepts across **English**, **Nigerian Pidgin**, and **Igbo** linguistics. 
+An interactive, high-fidelity client-side software prototype designed as a PhD Project Prototype. This platform acts as a localized semantic bridge, mapping complex public health and syndromic concepts across **English**, **Nigerian Pidgin**, and **Igbo** linguistics. 
 
-By leveraging local heuristic caches alongside secure open-source translation pipelines, the system captures colloquial field expressions (e.g., *"body dey hot"*, *"afọ ọsịsa"*) and unifies them under standardized public health categories for early epidemic tracking.
+By utilizing an instant local search cache alongside a direct browser-to-API translation workflow, the system captures colloquial field expressions (e.g., *"body dey hot"*, *"afọ ọsịsa"*) and maps them to standardized public health categories to assist in early epidemic tracking.
 
 ---
 
 ## 🚀 Core System Architecture & Use Cases
 
 1. **Social Listening Matrix**
-   Parses digital metadata, microblogs, and colloquial localized health variants dynamically to flag syndromic anomalies before formal clinical reports manifest.
+   Parses digital metadata, localized microblogs, and colloquial health variants in real time to flag syndromic anomalies before formal clinical admission data is processed.
 2. **Clinical Intake Triage**
-   Acts as an on-the-ground semantic interpreter within regional healthcare processing systems to reliably bridge vernacular descriptions with formal clinical indexes.
-3. **Automated Hybrid Translation Pipeline**
-   Utilizes a local heuristic dictionary database first. If an asset is missing, it automatically falls back to secure serverless endpoints to dynamically generate predictive cross-lingual terms.
+   Acts as a responsive semantic interpreter within regional healthcare environments to reliably bridge vernacular descriptions with formal clinical indexes.
+3. **Zero-Configuration Client Pipeline**
+   Shifts the translation logic entirely to the client browser (`main.js`). The application checks a high-fidelity local dictionary first. If a query is missing, it contacts an open-source translation mirror directly from the browser, bypassing the need for backend servers or API keys.
 
 ---
 
 ## 🛠️ Technology Stack
 
-* **Frontend:** Vanilla HTML5, Advanced CSS3 (Premium Dark Card Architecture), Vanilla JavaScript (ES6+ App Logic)
-* **Backend:** Node.js (Serverless Lifecycle Ready)
-* **API Engine:** Free, privacy-respecting Lingva Translate API (No-Key Scraper Layer for Igbo translations)
-* **Deployment target:** Vercel (Serverless Functions Framework)
+* **Frontend:** Vanilla HTML5, Advanced CSS3 (Premium Dark Card Architecture)
+* **Application Engine:** Vanilla JavaScript (ES6+ Reactive State & Fetch Lifecycle)
+* **Translation Interface:** Free, keyless Lingva Translate API (Direct browser-to-mirror translation for Igbo data)
+* **Hosting Compatibility:** Optimized for instant static hosting on Vercel, GitHub Pages, or Netlify with zero configuration.
 
 ---
 
@@ -33,64 +34,42 @@ By leveraging local heuristic caches alongside secure open-source translation pi
 
 ```text
 disease-lexicon/
-├── api/
-│   └── translate.js       # Vercel serverless function (Igbo API proxy & Pidgin mapping)
-├── public/
-│   ├── index.html         # Main dashboard layout
-│   ├── style.css          # Premium dark theme styles & UI animations
-│   ├── main.js            # Reactive state management & cache pipeline
-│   └── logo.svg           # Project vector icon branding asset
-├── package.json           # Node.js project manifest
-└── vercel.json            # Routing & static asset serving configuration
+├── index.html         # Main dashboard interface
+├── style.css          # Premium dark theme layout & UI card animations
+├── main.js            # Combined local lexicon database & browser fetch engine
+└── logo.svg           # High-fidelity project vector icon branding asset
 
 ```
 
 ---
 
-## ⚡ Local Development Installation
+## ⚡ Local Development & Testing
 
-To run this system locally, simulate the production serverless environment using the official **Vercel CLI**:
+Because the system is entirely static, it runs with zero installation overhead:
 
-1. **Clone the project workspace directory**
+1. **Clone or navigate to the project directory**
 ```bash
 cd disease-lexicon
 
 ```
 
 
-2. **Install dependencies**
-```bash
-npm install
-
-```
+2. **Launch the application**
+* Simply double-click `index.html` to open it natively in any modern web browser.
+* Alternatively, serve it using any simple static reloader (like VS Code Live Server or `npx serve`).
 
 
-3. **Install the Vercel CLI globally** (if not already installed)
-```bash
-npm install -g vercel
-
-```
-
-
-4. **Boot the local development server engine**
-```bash
-vercel dev
-
-```
-
-
-*Your server will spin up natively on `http://localhost:5500`.*
 
 ---
 
 ## 🌐 Deploying to Vercel
 
-Because this repository comes pre-packaged with a customized `vercel.json` routing matrix, deploying live to the cloud takes seconds.
+With no `package.json`, server configurations, or serverless functions to maintain, Vercel will deploy this project as an ultra-fast static site with a 100% success rate.
 
-Run the production deployment flag inside your terminal terminal workspace:
+Deploy instantly using the Vercel CLI from your root directory:
 
 ```bash
-vercel --prod
+vercel --prod --force
 
 ```
 
@@ -98,18 +77,18 @@ vercel --prod
 
 ## 📝 Academic Methodology (For Dissertation Reference)
 
-Unlike typical commercial applications relying entirely on big-tech platforms, this software employs a **Hybrid Resilient Framework**:
+To ensure maximum uptime, user privacy, and clinical tracking capability, the system relies on a **Deterministic Client-Side Framework**:
 
-* **Deterministic Dictionary Mapping:** High-fidelity linguistic data collected via field research is hardcoded locally to preserve high-accuracy context for critical localized idioms.
-* **Low-Resource Machine Translation (LRMT) Fallback:** Unlisted search expressions query open-source API routing workers to derive formal Igbo definitions. If the core concepts match, the system extrapolates regional Nigerian Pidgin terms using localized pattern-matching rules.
-* **Data-Source Labeling:** Dynamically retrieved cards are visually isolated in the UI using a distinct theme boundary and tagged with a **(Cloud Predicted)** marker to maintain data verification hygiene for epidemical analysis.
+* **Hardcoded Lexical Caches:** Field-verified linguistic rules and data are stored locally in an optimized JSON object to guarantee instant, high-accuracy matches for critical regional idioms.
+* **Low-Resource Machine Translation (LRMT) Integration:** Uncached search expressions use browser-level async/await streams to query open-source API nodes. This dynamically extracts formal Igbo definitions.
+* **Linguistic Rule-Mapping:** If core concepts match an indexed clinical condition, the application automatically applies a client-side phrase-mapping layer to approximate regional Nigerian Pidgin terms.
+* **Visual Data Isolation:** Dynamically compiled cards are separated visually in the UI using specialized CSS tokens and marked as **(Cloud Generated)** to ensure strict data validation standards for epidemiological research.
 
 ---
 
 ## 🛡️ Identity & Attribution
 
-This suite is designed and developed under the professional umbrella of 
-**{FABIAN CODES HQ}**.
+This suite is designed and developed under the professional umbrella of **{FABIAN CODES HQ}**.
 
 ```
 
