@@ -1,0 +1,30 @@
+{
+  "name": "health-lexicon",
+  "version": "1.0.0",
+  "description": "Multilingual Disease Surveillance Lexicon - A PhD Project Prototype for tracking syndromic anomalies across English, Nigerian Pidgin, and Igbo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vercel dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac-handel999/health-lexicon.git"
+  },
+  "keywords": [
+    "health",
+    "multilingual",
+    "disease-surveillance",
+    "lexicon",
+    "translation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mac-handel999/health-lexicon/issues"
+  },
+  "homepage": "https://github.com/mac-handel999/health-lexicon#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
