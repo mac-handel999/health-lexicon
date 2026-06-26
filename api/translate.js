@@ -3,8 +3,8 @@
  * bypassing Google's lack of native Pidgin translation.
  */
 const pidginHeuristics = {
-    "fever": ["fiva", "body dey hot", "hot body"],
-    "cough": ["kof", "dey kof", "chest cough"],
+    "fever": ["fiva", "my body dey hot", "hot body"],
+    "cough": ["kof", "I dey kof", "chest cough"],
     "diarrhea": ["run stomach", "watery stool", "sha-sha"],
     "vomiting": ["throw up", "puke", "vomit"],
     "hospital": ["doctor house", "clinic"],

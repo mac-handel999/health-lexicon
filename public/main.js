@@ -10,13 +10,13 @@ const lexiconData = {
         { "term": "fever", "language": "en", "category": "symptom", "translations": {}, "synonyms": [] },
         { "term": "fiva", "language": "pidgin", "category": "symptom", "translations": {"en": ["fever"]}, "synonyms": ["fever"] },
         { "term": "hot body", "language": "pidgin", "category": "symptom", "translations": {"en": ["fever"]}, "synonyms": ["fever"] },
-        { "term": "body dey hot", "language": "pidgin", "category": "symptom", "translations": {"en": ["fever"]}, "synonyms": ["fever"] },
+        { "term": "my body dey hot", "language": "pidgin", "category": "symptom", "translations": {"en": ["fever"]}, "synonyms": ["fever"] },
         { "term": "ahụ ọkụ", "language": "igbo", "category": "symptom", "translations": {"en": ["fever"]}, "synonyms": ["fever"] },
         { "term": "cough", "language": "en", "category": "respiratory", "translations": {}, "synonyms": [] },
         { "term": "kof", "language": "pidgin", "category": "respiratory", "translations": {"en": ["cough"]}, "synonyms": ["cough"] },
         { "term": "ụkwara", "language": "igbo", "category": "respiratory", "translations": {"en": ["cough"]}, "synonyms": ["cough"] },
         { "term": "diarrhea", "language": "en", "category": "gastrointestinal", "translations": {}, "synonyms": [] },
-        { "term": "run stomach", "language": "pidgin", "category": "gastrointestinal", "translations": {"en": ["diarrhea"]}, "synonyms": ["diarrhea"] },
+        { "term": "running stomach", "language": "pidgin", "category": "gastrointestinal", "translations": {"en": ["diarrhea"]}, "synonyms": ["diarrhea"] },
         { "term": "afọ ọsịsa", "language": "igbo", "category": "gastrointestinal", "translations": {"en": ["diarrhea"]}, "synonyms": ["diarrhea"] }
     ]
 };

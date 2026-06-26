@@ -14,15 +14,17 @@ app.use(express.static('public'));
  * bypassing Google's lack of native Pidgin translation.
  */
 const pidginHeuristics = {
-    "fever": ["fiva", "body dey hot", "hot body"],
+    "fever": ["fiva", "my body dey hot", "hot body"],
     "cough": ["kof", "dey kof", "chest cough"],
-    "diarrhea": ["run stomach", "watery stool", "sha-sha"],
+    "diarrhea": ["running stomach", "watery stool", "sha-sha"],
     "vomiting": ["throw up", "puke", "vomit"],
     "hospital": ["doctor house", "clinic"],
     "malaria": ["mala", "mosquito fever"],
     "typhoid": ["stomach typhoid"],
-    "headache": ["head pain", "head dey pain", "heavy head"]
+    "headache": ["head pain", "head dey pain me", "heavy head"]
 };
+
+//
 
 // Main translation proxy endpoint using free Lingva worker routing
 app.post('/api/translate', async (req, res) => {
